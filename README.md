@@ -21,11 +21,12 @@ The results of each model and its performance for each main bearing loads is dis
 https://public.tableau.com/views/Thesisresults_dashboard_v3/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
 ### Summary
-“*”With approach presented in thesis, Regression models can estimate main bearing loads from displacement values with certain degree of error.
-“*”Apart from linear model, all models could capture nonlinearity due to bearing surface and clearance with Bagged ensemble showing highest robustness.
-“*”Bagged Tree ensemble model consistently showed strong robustness for all main bearing loads.
-“*”ANN model showed good performance with original dataset and captured nonlinearity but was inconsistent in robustness test.
-“*”Compromise made between the accuracy and robustness.
+*With approach presented in thesis, Regression models can estimate main bearing loads from displacement values with certain degree of error.
+*Apart from linear model, all models could capture nonlinearity due to bearing surface and clearance with Bagged ensemble showing highest robustness.
+*Bagged Tree ensemble model consistently showed strong robustness for all main bearing loads.
+*ANN model showed good performance with original dataset and captured nonlinearity but was inconsistent in robustness test.
+*The load monitoring system has the capability to replace physical sensor like strain gauge.
+*Compromise made between the accuracy and robustness.
 
 
 
