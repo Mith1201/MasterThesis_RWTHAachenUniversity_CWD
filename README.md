@@ -16,9 +16,9 @@ From the previous research work [CWD], a detailed eMBS model of wind turbine is 
 The workflow diagram is shown in the figure 3.2 where displacement and load signal from test bench at low and high turbulence windfield is used as training data to build the model and signals from test bench at moderate turbulence windfield is used to evaluate model performance metrics.  
 
 ## Result
-![image](https://user-images.githubusercontent.com/102762042/189153004-3bafd60b-79dc-4717-8482-0f3d8af30548.png)
+![image](https://user-images.githubusercontent.com/102762042/189188809-18498360-99de-4e0f-ade2-8fec371b23f5.png)
 The results of each model and its performance for each main bearing loads is discussed in dashboard which can be accessed using below link.
-https://public.tableau.com/views/Thesisresults_dashboard_v3/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/Thesisresults_dashboard_v4/Dashboard12?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
 ### Summary
 * With approach presented in thesis, Regression models can estimate main bearing loads from displacement values with certain degree of error.
