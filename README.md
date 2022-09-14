@@ -21,11 +21,8 @@ The workflow diagram is shown in the figure 3.2 where displacement and load sign
 ![image](https://user-images.githubusercontent.com/102762042/189188809-18498360-99de-4e0f-ade2-8fec371b23f5.png)
 The results of each model and its performance for each main bearing loads is discussed in dashboard which can be accessed using below link.
 https://public.tableau.com/views/Thesisresults_dashboard_v4/Dashboard12?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
 ![image](https://user-images.githubusercontent.com/102762042/190121735-06b00c95-e17f-4f88-8196-33b474402a77.png)
-
-
-
-
 
 ### Summary
 * With approach presented in thesis, Regression models can estimate main bearing loads from displacement values with certain degree of error.
