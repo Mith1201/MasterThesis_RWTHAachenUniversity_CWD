@@ -12,6 +12,8 @@ In the context of this thesis, various machine learning techniques are examined 
 
 ![image](https://user-images.githubusercontent.com/102762042/189152684-90a3920e-29b4-4e7e-97ba-5254dffd6c5e.png)
 
+![image](https://user-images.githubusercontent.com/102762042/190120026-81bdaa51-4ff0-4de8-8b08-9cf9a9e0359a.png)
+
 From the previous research work [CWD], a detailed eMBS model of wind turbine is developed using SIMPACK software where the model is subjected to low, medium and high turbulence windfields. For training data, the wind speed is varied from 3m/s to 24m/s with an incrementation of 1m/s and constant bearing clearance. For testing data, the wind speed is varied from 6m/s to 12m/s. The generated load time series is exported to test bench consisting of weak wind turbine of capacity 2.3MW with four point rotor suspension. 
 The workflow diagram is shown in the figure 3.2 where displacement and load signal from test bench at low and high turbulence windfield is used as training data to build the model and signals from test bench at moderate turbulence windfield is used to evaluate model performance metrics.  
 
@@ -19,8 +21,10 @@ The workflow diagram is shown in the figure 3.2 where displacement and load sign
 ![image](https://user-images.githubusercontent.com/102762042/189188809-18498360-99de-4e0f-ade2-8fec371b23f5.png)
 The results of each model and its performance for each main bearing loads is discussed in dashboard which can be accessed using below link.
 https://public.tableau.com/views/Thesisresults_dashboard_v4/Dashboard12?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+![image](https://user-images.githubusercontent.com/102762042/190121735-06b00c95-e17f-4f88-8196-33b474402a77.png)
 
-![image](https://user-images.githubusercontent.com/102762042/190120026-81bdaa51-4ff0-4de8-8b08-9cf9a9e0359a.png)
+
+
 
 
 ### Summary
