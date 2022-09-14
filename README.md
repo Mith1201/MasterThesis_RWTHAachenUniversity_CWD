@@ -20,6 +20,9 @@ The workflow diagram is shown in the figure 3.2 where displacement and load sign
 The results of each model and its performance for each main bearing loads is discussed in dashboard which can be accessed using below link.
 https://public.tableau.com/views/Thesisresults_dashboard_v4/Dashboard12?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
+![image](https://user-images.githubusercontent.com/102762042/190120026-81bdaa51-4ff0-4de8-8b08-9cf9a9e0359a.png)
+
+
 ### Summary
 * With approach presented in thesis, Regression models can estimate main bearing loads from displacement values with certain degree of error.
 * Apart from linear model, all models could capture nonlinearity due to bearing surface and clearance with Bagged ensemble showing highest robustness.
@@ -71,4 +74,22 @@ showed atleast 60 to 70% better performace in comparison to other models due to 
 resilence to disturbances, thus making it suitable model to trial it in real world application. The next
 step would be to transfer the methodology applied here to real load monitoring system of a wind
 turbine and further monitor on its performance and robustness.
+Further research can be done on training these models to new dataset with high disturbances,
+especially the bagged ensemble model which showed resilience to generating errors, and
+therefore, perform well with the test data. The study also showed that high accuracy in most cases
+is accompanied by weak robustness and vice versa. Further study is needed on the minimum
+threshold for accuracy and robustness required for these models to be implemented in real world
+system because these models showed some degree of errors in load measurement and there is no
+research on how these errors can affect in load monitoring especially when wind turbines
+encounter turbulence outside of design limits.
+
+## Tools
+![image](https://user-images.githubusercontent.com/102762042/190120196-dae575c0-12b1-46ff-bdd9-f505b6c10587.png) ![image](https://user-images.githubusercontent.com/102762042/190120278-384e894f-47d1-4ba0-bfe2-c3854ff18644.png) ![image](https://user-images.githubusercontent.com/102762042/190120370-791f2321-cdcb-4171-88a7-b082456cb363.png) ![image](https://user-images.githubusercontent.com/102762042/190120450-ecf38b61-c2df-4355-a03e-0cf4a3296823.png) ![image](https://user-images.githubusercontent.com/102762042/190120617-21b53ce4-bd09-4e21-8d38-e76c64f6f955.png) ![image](https://user-images.githubusercontent.com/102762042/190120689-c8a0290f-e1a9-4834-8e50-ee6e255d33da.png) ![image](https://user-images.githubusercontent.com/102762042/190120762-fa514c14-7f85-4549-8658-79dbe01eed9e.png)
+
+
+
+
+
+
+
 
