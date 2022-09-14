@@ -28,5 +28,47 @@ https://public.tableau.com/views/Thesisresults_dashboard_v4/Dashboard12?:languag
 * The load monitoring system has the capability to replace physical sensor like strain gauge.
 * Compromise made between the accuracy and robustness.
 
-
+With the approach presented in this thesis of using regression models like linear regression,
+polynomial regression, Interaction regression, Tree model, Bagged Ensemble tree model, Support
+Vector Regressor, Gaussian Process Regression and Artificial Neural Network, it was possible to
+estimate individual main bearing load with displacement signals measured across the bearings.
+The use of machine learning models to replace strain gauges to build the load monitoring system
+not only makes the system more robust and durable, but also capable for real time data for
+commercial use. This data also improve the reliability of wind turbines by improvising on inspection
+and maintainance decisions. The study began with the understanding of the previous work on
+using the artificial neural network to estimate the main bearing loads and the model‘s capability to
+capture nonlinearity due to disturbances in data and robustness to certain degree of errors.
+In the first part of the study, the datasets with its parameters were studied followed with exploratory
+data analysis and feature engineering. The next stage was building the machine learning models
+and optimizing it with hyperparameter tuning. The machine learning models were subjected to
+different kinds of measurement uncertainities and nonlinearities like gain error, offset error and
+surface error to mimic varying radial clearances, surface imperfections etc in practical usecase.
+The perfromance paramterics of every model were studied and compared to draw the best
+performing model for these individual errors. In order to mimic the real world scenario where these
+errors can occur simultaneously, different random combinations of these errors were added to
+original test data over 500 iterations to find the most robust model. The results showed that
+Bagged ensemble tree model and coarse tree model were found to be the most robust models to
+determine the radial loads in y and z direction and axial loads in x direction. Coarse tree showed
+an error gain of 12kN followed by ensemble bagged tree with 14kN for axial load in x direction for
+the fixed bearing (FB) with other models in the range of 38kN to 44kN. Bagged ensemble model
+showed significantly low error gain of 78kN followed by coarse tree with 83kN for radial load in y
+direction for fixed bearing (FB) with other models ranging around 170kN to 230 kN. For the radial
+load in z direction for fixed bearing, SVR and Linear regression showed lower error gain of around
+5kN to 6kN followed by bagged ensemble model with error gain of 9kN. Bagged ensemble tree
+performed significantly better with error gain of 62kN followed by coarse tree with 73kN for radial
+load in y direction for loose bearing (LB) which was similar to observations made in fixed bearing
+(FB). Bagged ensemble model again outclassed other models with an error gain of 11kN for radial
+load in z direction for loose bearing (LB). Apart from subjecting the models to different errors,
+model were also tested with new dataset, Misalignment and Generator support dataset, obtained
+from modification in test bench. In first modification, generator was supported with only one vertical
+aligned pressure ram resulting in relatively stronger vibrations in the drive train. These modified
+lateral dynamics are reflected particularly in determination of radial load in z direction and is
+evident from weak robustness observed across the models for radial load in z direction. The
+second modification included changing positions of torque supports which resulted in preload in
+torque arm which in turn affected the x-z symmetry plane. This is evident from weak robustness
+observed in loads in x and z compared to y direction. In overall, Bagged ensemble tree model
+showed atleast 60 to 70% better performace in comparison to other models due to its high
+resilence to disturbances, thus making it suitable model to trial it in real world application. The next
+step would be to transfer the methodology applied here to real load monitoring system of a wind
+turbine and further monitor on its performance and robustness.
 
